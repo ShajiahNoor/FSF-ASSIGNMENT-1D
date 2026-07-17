@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f7f7f7;
+}
+
+/* Header */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    background:#fff;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#f4b400;
+}
+
+.logo i{
+    color:#27ae60;
+    margin-right:5px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#666;
+    margin:0 15px;
+    font-size:18px;
+}
+
+.active{
+    background:#27ae60;
+    color:white;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+.icons i{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    background:#eee;
+    border-radius:50%;
+    margin-left:10px;
+    color:#f4b400;
+}
+
+/* Hero Section */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:70px;
+}
+
+.text{
+    max-width:500px;
+}
+
+.text h3{
+    color:#27ae60;
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.text h1{
+    color:#f4b400;
+    font-size:85px;
+    margin-bottom:20px;
+}
+
+.text p{
+    color:#666;
+    font-size:24px;
+    line-height:1.5;
+    margin-bottom:25px;
+}
+
+button{
+    background:#f4b400;
+    color:white;
+    border:none;
+    padding:12px 30px;
+    border-radius:5px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.image img{
+    width:650px;
+    max-width:100%;
+}
